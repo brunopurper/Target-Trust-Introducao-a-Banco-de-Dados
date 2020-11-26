@@ -10,3 +10,15 @@ select * from departamentos;
 
 update departamentos
 	set sigla = 'cpd';
+    
+    
+update departamentos
+	set sigla = 'CONT'
+    where nome = 'Contabilidade';
+ 
+ #Excluir registros
+delete from departamentos
+where sigla='cpd';
+
+
+
